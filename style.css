@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    background-image: url(images/miles\ and\ gwen\ spider\ man\ wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+ font-family: 'Papyrus', fantasy;
+ font-size: larger;
+  color: #FFE4DE; 
+
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+
+.messsage span{
+
+    font-size: 60px;
+    margin-bottom: -14px;
+    color: #FFB6C1;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Styles for laptops and larger screens */
+}
